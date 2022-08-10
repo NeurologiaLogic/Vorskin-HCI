@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOrskins</title>
+    <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="../assets/leaf_logo.svg" type="image/x-icon">
+
+    <link href="../css/navbar_footer.css" rel="stylesheet" />
+    <link href="../css/subscribe.css" rel="stylesheet" />
+</head>
+
+<body class = "subscribe">
+     <!-- copy ini untuk setiap page -->
+     <div class="navbar-overlay"></div>
+     <!-- toggle mobile menu -->
+     <ul class="toggle-navbar">
+       <li class="vorskin-logo">
+         <a href="../html/HomePage.html"></a>
+       </li>
+       <li>
+         <a href="../html/HomePage.html">Home</a>
+       </li>
+       <li>
+         <a href="../html/Products.html">Products</a>
+         <div class="product-list"></div>
+       </li>
+       <li>
+         <a href="../html/AboutPage.html">About</a>
+       </li>
+       <li>
+         <a href="../html/Promotion.html">Promotion</a>
+       </li>
+       <li>
+         <a href="../html/Subscribe.html">Subscribe</a>
+       </li>
+     </ul>
+     <!-- end toggle mobile menu -->
+     <!-- search button -->
+     <!-- search button -->
+     <header>
+      <div class="marquee">
+        <div class="marquee-content">
+          <h3>Get 20% off on your first purchase.               Always get the latest update by subscribing to our newsletter</h3>
+        </div>
+      </div>
+    </header>
+    <nav>
+     <nav>
+      <!-- mobile naviagtion menu start -->
+      <div class="mobile-nav">
+        <input
+          class="search-menu"
+          type="text"
+          name=""
+          id="#search-menu"
+          placeholder="search it"
+        />
+        <div class="burger-navbar"></div>
+        <img src="../assets/vorskin_logo.svg" alt="Vorskin Logo" />
+        <div class="group">
+          <div class="search-navbar"></div>
+          <div class="cart-navbar"></div>
+        </div>
+
+      </div>
+      <!-- mobile naviagtion menu end -->
+
+      <!-- desktop naviagtion menu -->
+      <div class="desktop-nav">
+        <div class="logo_wrapper">
+          <div class="spacing"></div>
+          <div class="spacing"></div>
+          <img src="../assets/vorskin_logo.svg" alt="Vorskin Logo" />
+          <div class="search_navbar"></div>
+          <div class="cart_navbar"></div>
+        </div>
+        <ul>
+          <li>
+            <a href="../html/HomePage.html">Home</a>
+          </li>
+          <li>
+            <a href="../html/Products.html">Products</a>
+          </li>
+          <li>
+            <a href="../html/AboutPage.html">About</a>
+          </li>
+          <li>
+            <a href="../html/Promotion.html">Promotion</a>
+          </li>
+          <li>
+            <a href="../html/Subscribe.html">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+      <!-- desktop naviagtion menu end -->
+    </nav>
+     <!-- sampai sini -->
+    <header>
+      <form action ="#" method ="">
+        <section class="form_section">
+            <div class="text">
+            <h3>
+              Don't miss out the <br><b>greeniest</b> beauty products
+            </h3>
+            <div>
+              <label for="name">Full name</label><br>
+              <input type="text" id="name" name = "name" placeholder="Enter your full name"><br>
+              <div class="warningName" hidden>Name must be alphabetic and at least 5 characters</div>
+            </div>
+            <div>
+              <label for="email">Email address</label><br>
+              <input type="text" id="email" name = "email" placeholder="vorskinsbeauty@gmail.com"><br>
+              <div class="warningEmail" hidden>Enter a valid email addresss</div>
+            </div>
+            <div class = "number">
+              <div class="left">
+                <label for="phone">Phone number</label><br>
+                <input type="text" id="phone" name = "phonenumber" placeholder="08733281921"><br>
+                <div class="warningPhone" hidden>Phone number must be numeric and between 8 to 15 digits</div>
+              </div>
+              <div class="right">
+                <label for="age">Age</label><br>
+                <input type="number" id="age" name = "age" placeholder="Age" min = "0" step = "1"><br>
+                <div class="warningAge" hidden>Age above 10</div>
+              </div>
+            </div>
+            <div>
+              <label for="preferences">Preferences</label><br>
+              <select name="preferences" id="preferences">
+                <option value="default" id = "def" disabled selected hidden>Please select</option>
+                <option value="option1">Skin care</option>
+                <option value="option2">Body care</option>
+                <option value="option3">Both</option>
+              </select><br>
+            </div>
+            <div class="warningPref" hidden>Please select your preference</div>
+            <div class="special">
+              <input id = "checkTerms" type="checkbox" name="check" id="check_box">
+              <label for="check_box">I agree to the terms and conditions</label> <br>
+              <input id = "checkNews" type="checkbox" name="check" id="check_box">
+              <label for="check_box">I agree to receive newsletters from VOrskins</label>
+            </div>
+            <button type="button" id="submit">Submit</button>
+          </div>
+          <div class="image">
+            <img id ="img-subs" src="../assets/SubscribePage/finalpic.svg" alt="picture">
+          </div>
+        </section>
+        </div>
+      </form>
+        </header>
+
+
+
+        <footer>
+          <div class="footer_logo">
+            <img src="../assets/vorskin_logo_navbar.svg" alt="Vorskin Logo" />
+            <span>beauty with vegan</span>
+            <div class="desktop">
+              <ul>
+                <li><a href="https://www.instagram.com/avoskinbeauty/"><img src="../assets/instagram_logo.svg" alt=""></a></li>
+                <li><a href="https://www.instagram.com/avoskinbeauty/"><img src="../assets/facebook_logo.svg" alt=""></a></li>
+                <li><a href="https://twitter.com/avoskinbeauty"><img src="../assets/twitter_logo.svg" alt=""></a></li>
+                <li><a href="https://www.youtube.com/c/AvoskinBeauty"><img src="../assets/youtube_logo.svg" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_navbar">
+            <ul>
+              <li class="desktop links">
+                <h1>Information</h1>
+                <ul>
+                  <li>
+                    <a href="../html/HomePage.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="../html/Products.html">Products</a>
+                    <div class="product-list"></div>
+                  </li>
+                  <li>
+                    <a href="../html/AboutPage.html">About</a>
+                  </li>
+                  <li>
+                    <a href="../html/Promotion.html">Promotion</a>
+                  </li>
+                  <li>
+                    <a href="../html/Subscribe.html">Subscribe</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="payment">
+                <h1>Payment</h1>
+
+                <div class="e_wallet">
+                  <h3>E-wallets</h3>
+                  <ul>
+                    <li><img src="../assets/ovo_logo.svg" alt=""></li>
+                    <li><img src="../assets/gopay_logo.svg" alt=""></li>
+                    <li><img src="../assets/dana_logo.svg" alt=""></li>
+                    <li><img src="../assets/linkaja_logo.svg" alt=""></li>
+                  </ul>
+                </div>
+                <div class="banks">
+                  <h3>Banks</h3>
+                  <ul>
+                    <li><img src="../assets/bca.svg" alt=""></li>
+                    <li><img src="../assets/mandiri.svg" alt=""></li>
+                    <li><img src="../assets/mega.svg" alt=""></li>
+                    <li><img src="../assets/bri.svg" alt=""></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="customer_care"><h1>Customer care</h1>
+              <ul>
+                <li><img src="../assets/mail_logo.svg" alt=""> <span>hello@vorskins.com</span></li>
+                <li><img src="../assets/whatsapp_logo.svg" alt=""><span>+62 812 9171 2733</span></li>
+                <li><img src="../assets/location_logo.svg" alt=""><span>Jl. Panglima Polim VIII No 2A Melawai. Kebayoran Baru Jakarta Selatan 12160</span></li>
+              </ul></li>
+              <li class ="follow_us mobile">
+                <h1>Follow Us</h1>
+                <ul>
+                  <li><a href="https://www.instagram.com/avoskinbeauty/"><img src="../assets/instagram_logo.svg" alt=""></a></li>
+                  <li><a href="https://www.instagram.com/avoskinbeauty/"><img src="../assets/facebook_logo.svg" alt=""></a></li>
+                  <li><a href="https://twitter.com/avoskinbeauty"><img src="../assets/twitter_logo.svg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/c/AvoskinBeauty"><img src="../assets/youtube_logo.svg" alt=""></a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+          <div class="copyright">
+            <p>Copyright &copy; 2022 VOrskins. All rights reserved</p>
+            <p>Developed by Patrick Kwon and Michelle Angela Aryanto</p>
+          </div>
+        </footer>
+</body>
+<script src="../js/subscribePage.js"></script>
+</html>

@@ -1,0 +1,651 @@
+@media screen and (max-width: 900px) {
+  .promotion {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .promotion .cover-img {
+    display: none;
+  }
+  .promotion .promotion-cover .cover-img-mobile {
+    background-image: url(../assets/PromotionPage/mobile-promotion.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: auto;
+    height: 80vh;
+  }
+  .promotion .promotion-cover .cover-img-mobile-btn {
+    background-image: url(../assets/PromotionPage/mobile-promotion-txt.svg);
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+  }
+  .promotion .promotion-cover .cover-img-mobile-btn .green-btn {
+    visibility: visible;
+    text-align: center;
+    padding-top: 250px;
+  }
+  .promotion .promotion-cover .cover-img-mobile-btn .green-btn #green {
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    visibility: visible;
+    background: linear-gradient(
+      90.1deg,
+      #456a70 0.17%,
+      rgba(69, 106, 112, 0.17) 99.8%,
+      rgba(69, 106, 112, 0.17) 99.8%
+    );
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+  }
+  .promotion .promotion-cover .cover-img-mobile-btn .green-btn #green:hover {
+    cursor: pointer;
+  }
+  .promotion .imgtxt {
+    max-width: 200vw;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .promotion .imgtxt .group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 400;
+    padding-bottom: 100px;
+  }
+  .promotion .subscribe {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .promotion .subscribe .subs-txt {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .promotion .subscribe .subs-txt .subs-txt-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .promotion .subscribe .subs-txt .subs-txt-up .promo h1 {
+    padding: 50px;
+  }
+  .promotion .subscribe .subs-txt .subs-txt-up .btn #btn-promo {
+    width: 400px;
+  }
+  .promotion .subscribe .subs-txt .subs-txt-up .btn #btn-promo:hover {
+    cursor: pointer;
+  }
+  .promotion .subscribe .subs-txt .subs-txt-down {
+    width: 100%;
+  }
+  .promotion .bank-promo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .promotion .bank-promo .left-down img {
+    height: 24px;
+  }
+  .promotion .bank-promo .promo-mid {
+    text-align: center;
+  }
+  .promotion .bank-promo .promo-mid img {
+    height: 70px;
+  }
+  .promotion .ewallet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .promotion .ewallet .banner-right {
+    text-align: center;
+  }
+  .promotion .summer-sale {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+  }
+  .promotion .summer-sale .sale-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .promotion .summer-sale {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .promotion .partnerships {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .promotion .partnerships .box-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.promotion .promotion-cover .cover-img {
+  background-image: url(../assets/PromotionPage/main.min.png);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 40vw;
+}
+
+.promotion .promotion-cover .cover-img-mobile {
+  display: hidden;
+}
+
+.promotion .promotion-cover .green-btn {
+  visibility: hidden;
+}
+
+.promotion .promotion-cover .button {
+  margin-top: 350px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.promotion button {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  background: linear-gradient(
+    90.1deg,
+    #456a70 0.17%,
+    rgba(69, 106, 112, 0.17) 99.8%,
+    rgba(69, 106, 112, 0.17) 99.8%
+  );
+  width: 25vw;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.promotion button:hover {
+  zoom: 103%;
+  -webkit-filter: brightness(75%);
+  filter: brightness(75%);
+  color: white;
+}
+
+.promotion .space {
+  width: 5rem;
+}
+
+.promotion .space-h {
+  width: 3rem;
+}
+
+.promotion .space-v {
+  height: 4rem;
+}
+
+.promotion .space-vm {
+  height: 2rem;
+}
+
+.promotion .space-vk {
+  height: 0.8rem;
+}
+
+.promotion #btn-promo {
+  background-color: #90bdb2;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 1000;
+  border-radius: 20px;
+  width: 140px;
+}
+
+.promotion #btn-promo:hover {
+  cursor: pointer;
+}
+
+.promotion .benefits_vorskins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.promotion .benefits_vorskins .reasons-text h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #296544;
+}
+
+.promotion .benefits_vorskins .imgtxt {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promotion .benefits_vorskins .imgtxt .group {
+  width: 400px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+}
+
+.promotion .benefits_vorskins .imgtxt .img {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.promotion .benefits_vorskins .imgtxt .img img {
+  text-align: center;
+  justify-items: center;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.promotion .benefits_vorskins .imgtxt .img img #disc {
+  margin-bottom: 10px;
+}
+
+.promotion .benefits_vorskins .imgtxt .img .txt {
+  height: 50px;
+}
+
+.promotion .benefits_vorskins .imgtxt .img .txt p {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.promotion .benefits_vorskins .imgtxt img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+.promotion .subscribe {
+  padding: 0;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promotion .subscribe .subs-txt-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.promotion .subscribe .subs-txt-up h1 {
+  color: #296544;
+  font-size: 4rem;
+  font-weight: 1000;
+  letter-spacing: 0.5rem;
+}
+
+.promotion .subscribe .subs-txt-up .btn {
+  justify-items: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.promotion .subscribe .subs-txt-down {
+  width: 565px;
+}
+
+.promotion .subscribe .subs-txt-down p {
+  font-size: 1rem;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.promotion .bank-promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 50px 50px 50px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.promotion .bank-promo .left-up h1 {
+  font-size: 2rem;
+  color: #296544;
+}
+
+.promotion .bank-promo .promo-left {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  padding-left: 0px;
+}
+
+.promotion .bank-promo .promo-mid img {
+  height: 300px;
+}
+
+.promotion .bank-promo .left-down {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.promotion .bank-promo .left-down img {
+  height: 35px;
+  padding-right: 30px;
+}
+
+.promotion .bank-promo .promo-right {
+  padding-top: 20px;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.promotion .bank-promo .promo-right .right-txt h2 {
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+}
+
+.promotion .bank-promo .promo-right .right-txt h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  color: #296544;
+}
+
+.promotion .bank-promo .promo-right .right-txt #first {
+  padding-bottom: 40px;
+}
+
+.promotion .bank-promo .promo-right .right-txt #second {
+  font-size: 0.8rem;
+}
+
+.promotion .ewallet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 50px 50px 50px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.promotion .ewallet .ewallet-left .left-text h3 {
+  font-size: 1.5rem;
+}
+
+.promotion .ewallet .ewallet-left .left-text h1 {
+  font-size: 3rem;
+  color: #296544;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.promotion .ewallet .ewallet-left .left-text p {
+  padding-bottom: 30px;
+}
+
+.promotion .ewallet .ewallet-left .qris {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.promotion .ewallet .ewallet-left .qris .qris-text {
+  padding-right: 40px;
+}
+
+.promotion .ewallet .banners-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promotion .ewallet .banners-right .banner-right .masks img {
+  height: 300px;
+}
+
+.promotion .summer-sale {
+  padding: 50px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.promotion .summer-sale .right-sale {
+  padding-left: 30px;
+  padding-top: 150px;
+}
+
+.promotion .summer-sale .right-sale .right-txt h2 {
+  font-size: 2rem;
+}
+
+.promotion .summer-sale .right-sale .right-txt h1 {
+  font-size: 4rem;
+  letter-spacing: 10px;
+  color: #296544;
+}
+
+.promotion .summer-sale .right-sale .right-txt p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  padding-bottom: 30px;
+}
+
+.promotion .summer-sale .right-sale .btmright-logo {
+  padding-top: 100px;
+  float: right;
+}
+
+.promotion .summer-sale .right-sale .btmright-logo img {
+  height: 55px;
+}
+
+.promotion .partnerships {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.promotion .partnerships .box-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+
+.promotion .partnerships .partner-title {
+  padding-bottom: 50px;
+}
+
+.promotion .partnerships .partner-title h1 {
+  text-align: center;
+  color: #296544;
+  font-size: 2rem;
+}
+
+.promotion .partnerships .partner-boxes .box {
+  width: 275px;
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: 0px 4.17391px 150.17391px -4rem rgba(41, 41, 41, 0.6),
+    0px 6.17391px 16px 0 rgba(41, 41, 41, 0.1);
+  box-shadow: 0px 4.17391px 150.17391px -4rem rgba(41, 41, 41, 0.6),
+    0px 6.17391px 16px 0 rgba(41, 41, 41, 0.1);
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.promotion .partnerships .partner-boxes .box .upper-box h3 {
+  padding: 5px;
+  text-indent: 10px;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.promotion .partnerships .partner-boxes .box .upper-box img {
+  height: 50px;
+}
+
+.promotion .partnerships .partner-boxes .box .upper-box p {
+  color: #296544;
+}
+
+.promotion .partnerships .partner-boxes .box .lower-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 4.17391px 4.17391px 0px rgba(73, 62, 131, 0.12);
+  box-shadow: 0px 4.17391px 4.17391px 0px rgba(73, 62, 131, 0.12);
+}
+
+.promotion .partnerships .partner-boxes .box .lower-box .desc-code {
+  padding: 10px 0 10px 0;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  background: #d8f3ed;
+}
+
+.promotion .partnerships .partner-boxes .box .lower-box .desc-code h5 {
+  line-height: 1rem;
+  text-align: left;
+  font-size: 0.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.promotion .partnerships .partner-boxes .box .lower-box .code {
+  width: 225px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #466b71;
+}
+
+.promotion .partnerships .partner-boxes .box .lower-box .code #code {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+}
+
+.promotion .partnerships .partner-boxes .box:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+/*# sourceMappingURL=promotion.css.map */

@@ -1,0 +1,145 @@
+@media screen and (max-width: 800px) {
+  .subscribe .form_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .subscribe .form_section .text {
+    width: 100%;
+  }
+  .subscribe .form_section .image {
+    height: 500px;
+  }
+  .subscribe .form_section .image #img-subs {
+    padding-top: 40px;
+    height: 50vh;
+  }
+}
+
+.subscribe .form_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+}
+
+.subscribe .form_section div {
+  font-size: 1.5rem;
+}
+
+.subscribe .form_section .text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 50px;
+  font-size: 1.2rem;
+}
+
+.subscribe .form_section .text h3, .subscribe .form_section .text b {
+  font-size: 32px;
+  color: #296544;
+  padding-bottom: 30px;
+  font-weight: medium;
+}
+
+.subscribe .form_section .text label {
+  color: #296544;
+  font-weight: medium;
+}
+
+.subscribe .form_section .text select {
+  width: auto;
+}
+
+.subscribe .form_section .text select option {
+  background-color: #E3F1F1;
+}
+
+.subscribe .form_section .text .special {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 0rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.subscribe .form_section .text .special #checkTerms, .subscribe .form_section .text .special #checkNews {
+  width: 30px;
+  height: 12px;
+  border-radius: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.subscribe .form_section .text input, .subscribe .form_section .text select {
+  background-color: #daf2ec;
+  width: 45.2vw;
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 2px rgba(73, 62, 131, 0.3);
+          box-shadow: 0px 2px 2px rgba(73, 62, 131, 0.3);
+  text-indent: 1em;
+}
+
+.subscribe .form_section .text select#def {
+  color: lightgray;
+}
+
+.subscribe .form_section .text .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe .form_section .text .number .left {
+  padding-right: 15px;
+}
+
+.subscribe .form_section .text .number .left input {
+  width: 32vw;
+}
+
+.subscribe .form_section .text .number .right input {
+  width: 12vw;
+}
+
+.subscribe .form_section .text button {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 25vw;
+  background: #7eaea2;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.subscribe .form_section .text button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#596a70), to(rgba(89, 106, 112, 0.17)));
+  background: linear-gradient(to right, #596a70, rgba(89, 106, 112, 0.17));
+}
+
+.subscribe .form_section .image {
+  width: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscribe .form_section .image #img-subs {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=subscribe.css.map */

@@ -1,0 +1,471 @@
+.about .desktop {
+  display: none;
+  padding: none;
+}
+
+.about .mobile {
+  padding: none;
+}
+
+.about .mobile img {
+  width: 100%;
+}
+
+.about .homepage-cover {
+  width: 100vw;
+  height: 130vw;
+  background-image: url("../assets/AboutUsPage/mobile_homepage.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.about .introduction {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .introduction .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.about .introduction .logo img {
+  width: 10rem;
+  height: auto;
+}
+
+.about .introduction .logo h2 {
+  color: #296544;
+  text-indent: 15px;
+  margin-bottom: 40px;
+}
+
+.about .introduction .logo p {
+  text-align: center;
+}
+
+.about .vision_mission .container_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.about .vision_mission .container_wrapper img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.about .vision_mission .container_wrapper img:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  top: 0;
+  left: 0;
+  z-index: 21;
+}
+
+.about .vision_mission .container_wrapper img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.about .vision_mission .container_wrapper .seperator {
+  padding: 2rem 2rem;
+  width: 100%;
+}
+
+.about .vision_mission h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about .history {
+  margin: 3rem;
+}
+
+.about .history .container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.about .history .container:after {
+  content: "";
+  width: 3px;
+  height: 75%;
+  background-color: #7eaea2;
+  position: absolute;
+  top: 1.5rem;
+  z-index: -1;
+  right: 0;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.about .history .container h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.about .history .container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 0;
+  position: relative;
+  margin-bottom: 12rem;
+}
+
+.about .history .container .box .date_of_event {
+  position: absolute;
+  width: 4rem;
+  height: 5rem;
+  right: 0;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+  z-index: 20;
+}
+
+.about .history .container .box img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 0;
+}
+
+.about .history .container .box .description {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+}
+
+.about .history .container .box .description h3 {
+  z-index: 11;
+  font-size: 18px;
+  color: #296544;
+  padding: 20px;
+  padding-left: 0px;
+  color: #296544;
+}
+
+.about .history .container .box .description p {
+  z-index: 11;
+}
+
+.about .history .container .box .two {
+  padding: 0;
+}
+
+.about .thanks {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.about .thanks h2 {
+  color: #466B71;
+  padding: 0;
+  margin: 0;
+}
+
+.about .thanks h1 {
+  color: #466B71;
+  font-size: 2rem;
+}
+
+.about .thanks span {
+  font-size: 2.5rem;
+  color: #466B71;
+}
+
+@media screen and (min-width: 800px) {
+  .container_wrapper img {
+    width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .container_wrapper img:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 21;
+  }
+  .container_wrapper img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .box img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .box img:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 21;
+  }
+  .box img:hover {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  .desktop {
+    display: block;
+  }
+  .desktop img {
+    width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .desktop img:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 21;
+  }
+  .desktop img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .mobile {
+    display: none;
+  }
+  .about .left {
+    margin: 1rem 0;
+  }
+  .about .homepage-cover {
+    background-image: url("../assets/AboutUsPage/desktop_homepage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .about .introduction {
+    padding: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about .introduction .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .introduction .logo h2 {
+    text-indent: 15px;
+  }
+  .about .introduction .logo img {
+    width: 10rem;
+    height: auto;
+  }
+  .about .introduction p {
+    margin-left: 5rem;
+    padding: 40px;
+    line-height: 35px;
+  }
+  .about .vision_mission .container_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  .about .vision_mission .container_wrapper .desktop {
+    display: block;
+    padding: 2rem;
+    width: 50%;
+  }
+  .about .vision_mission .container_wrapper img {
+    padding: 2rem;
+    width: 50%;
+  }
+  .about .vision_mission .container_wrapper .seperator {
+    padding: 6rem;
+    width: 50%;
+    margin: 0 1rem;
+  }
+  .about .vision_mission .container_wrapper h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #296544;
+  }
+  .about .vision_mission .container_wrapper p {
+    line-height: 35px;
+  }
+  .about .history {
+    margin: 3rem;
+  }
+  .about .history .container {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .about .history .container:after {
+    content: "";
+    width: 3px;
+    height: 70%;
+    background-color: #7eaea2;
+    position: absolute;
+    top: 1.5rem;
+    z-index: -1;
+    left: 50%;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  .about .history .container h2 {
+    text-align: left;
+    font-size: 18px;
+    color: #296544;
+    margin-bottom: 0;
+  }
+  .about .history .container p {
+    line-height: 35px;
+  }
+  .about .history .container .box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    z-index: 0;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  .about .history .container .box .date_of_event {
+    position: absolute;
+    height: 9rem;
+    width: 7.5rem;
+    z-index: 12;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .about .history .container .box img {
+    position: relative;
+    width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    z-index: 0;
+  }
+  .about .history .container .box .desktop {
+    display: block;
+    width: 50%;
+  }
+  .about .history .container .box .description {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem 3rem;
+  }
+  .about .history .container .box .description h3 {
+    z-index: 11;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #296544;
+  }
+  .about .history .container .box .description p {
+    padding-left: 2rem;
+    z-index: 11;
+    font-size: 16px;
+  }
+  .about .history .two h3 {
+    text-align: left;
+  }
+  .about .history .center p {
+    padding: 3rem 0;
+  }
+  .about .history .thanks {
+    margin: 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .history .thanks h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+  .about .history .thanks h1 span {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=aboutUs.css.map */
